@@ -111,7 +111,7 @@ button:hover {
 
 #encriptar {
     background-color: #0A3871;
-    color: #ffffff
+    color: #ffffff;
 }
 
 #resultado {
@@ -129,7 +129,7 @@ button:hover {
 }
 
 footer {
-    width: 50%;;
+    width: 50%;
     padding: 2px;
     margin-left: 25%;
     background-color: #D8DFE8;

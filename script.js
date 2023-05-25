@@ -67,4 +67,4 @@ let botaoDecriptar =  document.getElementById("decriptar");
 botaoDecriptar.onclick = decriptar
 
 let botaoEncriptar =  document.getElementById("encriptar");
-botaoEncriptar.onclick = encriptar
+botaoEncriptar.onclick = encriptar;

@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de escala</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+    <link rel="icon" href="images/favicon.ico">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
-  
-  <script src="assets/script.js"></script>
+    <header>
+        <img id="logo" src="images/logo.png" alt="A da Alura">
+
+    </header>
+    <div class="container">
+        <div class="inputs" >
+            <textarea id="entrada" placeholder="Insira aqui o texto para Encriptar/Decriptar">
+                
+            </textarea>
+            <div class="exclamacao">
+                <img class="exclamacao-img" src="images/exclamacao.png" alt="Informação">Apenas letras minúsculas e sem acento.
+            </div>
+            <div class="outputbuttons">
+                <button id="encriptar">Encriptar</button>
+                <button id="decriptar">Decriptar</button>
+            </div>
+        </div>
+        <div class="output">
+            <img id="carinha" src="images/guy.svg" alt="Homem com uma lupa, procurando algo">
+            <textarea id="resultado" disabled></textarea>
+            <h1 id="outputtitulo">Nenhuma mensagem encontrada</h1>
+            <p id="outputp">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button id="copiar">Copiar</button>
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <h2>Desenvolvido por:</h2>
+        <p>Camila Mendes</p>
+    </footer>
+    
 </body>
 </html>

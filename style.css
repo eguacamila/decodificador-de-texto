@@ -153,10 +153,10 @@ footer p {
 
 @media screen and (max-width: 480px) {
     .inputs, .output, .container, .exclamacao{
-        width: auto;    
+        width: 100%;    
     }
-
+  
     .output {
-        max-height: 400px;
+        height: 40%;
     }
 }

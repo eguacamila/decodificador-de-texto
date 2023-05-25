@@ -53,6 +53,7 @@ body {
     background-color:white;
     align-self: center;
     max-width: 42vmax;
+    height: 540px;
     
 }
 
@@ -75,7 +76,7 @@ textarea {
     padding-top: 10px;
     display: flex;
     font-family: Inter;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0em;

@@ -34,7 +34,8 @@ body {
     align-content: center;
     flex-direction:column;
     width: 50vmax;
-    height: 25vmax;
+    height: 28vmax;
+    border-style: dotted;
 }
 
 .output {
@@ -43,6 +44,7 @@ body {
     margin: 2%;
     padding:2%;
     border-radius: 2vmax;
+    border-style: groove;
     display: flex;
     flex-direction: column;
     flex-shrink: 2;
@@ -50,7 +52,7 @@ body {
     flex-grow: 1;
     background-color:white;
     align-self: center;
-    max-width: 40vmax;
+    max-width: 42vmax;
     
 }
 
@@ -63,6 +65,7 @@ textarea {
     color: #0A3871;
     font-family: 'Inter', sans-serif;
 }
+
 
 #carinha {
     height: 10vmax;
@@ -79,6 +82,7 @@ textarea {
     text-align: left;
 
 }
+
 
 .exclamacao-img {
     width: 16px;
@@ -126,9 +130,11 @@ button:hover {
 }
 
 footer {
-    padding: 1vmax;
-    margin: 0;
-    padding-bottom: 0;
+    width: 50%;;
+    padding: 2px;
+    margin-left: 25%;
+    background-color: #D8DFE8;
+    border-radius: 20px;
 }
 
 footer h2 {

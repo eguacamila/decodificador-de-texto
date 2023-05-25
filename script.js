@@ -8,13 +8,13 @@ let botaoCopiar =  document.getElementById("copiar");
 
 
 
-function pegarValor(campo){
+function pegarValor(campo) {
     return document.getElementById(campo).value;
 
 }
 
 
-function decriptar(){
+function decriptar() {
     let texto = pegarValor("entrada");
     let resultado = texto.replace(/ai/gi,"a")
     .replace(/enter/gi,"e")
@@ -27,10 +27,9 @@ function decriptar(){
     carinha.style.display ="none";
     botaoCopiar.style.display ="flex";
     campoResultado.innerHTML = resultado;
-    
 }
 
-function encriptar(){
+function encriptar() {
     let texto = pegarValor("entrada");
     let letras = texto.split("");
     let textoEncriptado = "";
@@ -58,11 +57,11 @@ function encriptar(){
     campoResultado.innerHTML = textoEncriptado;
 }
 
-function copiar(){
+function copiar() {
     navigator.clipboard.writeText(campoResultado.value);
 }
 
-botaoCopiar.onclick = copiar
+botaoCopiar.onclick = copiar;
 
 let botaoDecriptar =  document.getElementById("decriptar");
 botaoDecriptar.onclick = decriptar

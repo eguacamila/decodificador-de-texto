@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+html {
+    height: -webkit-fill-available;
+}
+
 body {
     width:100%;
     height:100%;
@@ -9,6 +13,7 @@ body {
     color: #0A3871;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
+    height: -webkit-fill-available;
 }
 
 #logo {
@@ -152,6 +157,6 @@ footer p {
     }
 
     .output {
-        height: 400px;
+        height: 280px;
     }
 }
